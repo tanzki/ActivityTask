@@ -10,9 +10,9 @@ class Afritada {
 class Mechado extends Afritada {
 	public void showIngredients() {
 		String[] Ingridients = {"Tomato Sauce",
-								"Meat", 
-								"Potatoes & Carrots",
-								"Tomato Paste"};
+					"Meat", 
+					"Potatoes & Carrots",
+					"Tomato Paste"};
 		System.out.println("Mechado = "+java.util.Arrays.toString(Ingridients)+"🍲 \n");
 	}
 }
@@ -20,11 +20,11 @@ class Mechado extends Afritada {
 class Menudo extends Afritada {
 	public void showIngredients() {
 		String[] Ingridients = {"Tomato Sauce",
-								"Meat", 
-								"Potatoes & Carrots",
-								"Liver Spread",
-								"Raisins",
-								"Hotdog"};
+					"Meat", 
+					"Potatoes & Carrots",
+					"Liver Spread",
+					"Raisins",
+					"Hotdog"};
 		System.out.println("Menudo = "+java.util.Arrays.toString(Ingridients)+"🍲 \n");
 	}
 }
