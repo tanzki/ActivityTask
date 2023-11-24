@@ -1,5 +1,3 @@
-package tasksheet113;
-
 import java.util.Scanner;
 
 public class TaskSheet113 {
