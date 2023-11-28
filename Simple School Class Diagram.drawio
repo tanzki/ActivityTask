@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-11-28T13:50:58.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HDMgSw8a5DOdClmc4JrL" version="22.1.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;School&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274" y="140" width="279" height="70" as="geometry">
+            <mxRectangle x="344" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;departments: Department[]&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q3VlOx32O_sJhU3rCdkW-7">
+          <mxGeometry y="26" width="279" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-12" value="&lt;h2 style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0.5rem; font-family: Poppins, sans-serif; line-height: 1.2; color: rgb(69, 90, 100); font-size: 1.875rem; user-select: auto !important;&quot; id=&quot;yui_3_17_2_1_1701178368257_1562&quot;&gt;Simple School Class Diagram&lt;br style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;/h2&gt;&lt;div&gt;&lt;span style=&quot;box-sizing: border-box; user-select: auto !important; font-size: calc(0.950625rem + 0.6075vw);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; user-select: auto !important;&quot; id=&quot;intro&quot;&gt;&lt;div style=&quot;box-sizing: border-box; user-select: auto !important;&quot; id=&quot;yui_3_17_2_1_1701178368257_1537&quot;&gt;&lt;div style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;div style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; user-select: auto !important; margin-top: 0px; margin-bottom: 1rem;&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; user-select: auto !important;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgb(33, 37, 41); font-family: Poppins, sans-serif; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255); user-select: auto !important;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="189" y="30" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Department            &lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274.5" y="230" width="279" height="110" as="geometry">
+            <mxRectangle x="344" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;departmentName: String&lt;br&gt;offices: Office[] &lt;br&gt;masterTeacher: MasterTeacher&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q3VlOx32O_sJhU3rCdkW-13">
+          <mxGeometry y="26" width="279" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Office              &lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274.5" y="360" width="279" height="90" as="geometry">
+            <mxRectangle x="344" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-16" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;officeNumber: int &lt;br&gt;isFacultyRoom: boolean &lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q3VlOx32O_sJhU3rCdkW-15">
+          <mxGeometry y="26" width="279" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Teacher              &lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274.5" y="470" width="279" height="70" as="geometry">
+            <mxRectangle x="344" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-18" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;teacherName: String         &lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q3VlOx32O_sJhU3rCdkW-17">
+          <mxGeometry y="26" width="279" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;MasterTeacher           &lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274" y="560" width="279" height="110" as="geometry">
+            <mxRectangle x="344" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3VlOx32O_sJhU3rCdkW-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;masterTeacherName: String&amp;nbsp; teachersManaged: Teacher[]  &lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q3VlOx32O_sJhU3rCdkW-21">
+          <mxGeometry y="26" width="279" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
