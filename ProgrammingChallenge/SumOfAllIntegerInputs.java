@@ -8,14 +8,14 @@ public class SumOfAllIntegerInputs {
 		
 		int sum = 0;
 
-    		System.out.println("Enter integers (enter a non-integer value to stop):");
+    		System.out.println("Enter integers (enter a letter value to stop):");
 
     		while (scanner.hasNextInt()) {
         		int num = scanner.nextInt();
         		sum += num;
     		}
 
-    		System.out.println("The sum of all the integers entered is: " + sum);
+    		System.out.println("The sum of all the numbers input is: " + sum);
 
     }
 
