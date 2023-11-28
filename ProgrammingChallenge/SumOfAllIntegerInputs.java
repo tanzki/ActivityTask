@@ -15,7 +15,7 @@ public class SumOfAllIntegerInputs {
         		sum += num;
     		}
 
-    		System.out.println("The sum of all the numbers input is: " + sum);
+    		System.out.println("The sum of all numbers input is: " + sum);
 
     }
 
