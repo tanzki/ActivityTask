@@ -2,12 +2,10 @@ package ProgrammingChallenge;
 import java.util.Scanner;
 
 public class StringBuilder10Characters {
-
 	public static void main(String[] args) {
-
-		Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user to enter a string of at least 10 characters
+	
+	Scanner scanner = new Scanner(System.in);
+		
         System.out.print("Enter a string of at least 10 characters: ");
         String input = scanner.nextLine();
 
